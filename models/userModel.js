@@ -1,8 +1,4 @@
-const { name } = require("ejs");
-const { model } = require("mongoose");
-
-const mongoose = request('mongoose');
-
+const mongoose = require('mongoose');
 const userSchema = new mongoose.Schema({
     name : {
         type : String,
